@@ -1,0 +1,35 @@
+
+body {
+  background: #0b0b0b;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: #111;
+  text-align: center;
+  box-shadow: 0 0 20px purple;
+}
+
+input, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: purple;
+  color: white;
+  cursor: pointer;
+}
+
+#result img {
+  margin-top: 15px;
+  width: 200px;
+}
