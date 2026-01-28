@@ -1,18 +1,15 @@
-
 {
-  "name": "wa-pairing-site",
+  "name": "wa-pair-backend",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "WhatsApp pairing backend",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": ">=18"
+    "start": "node index.js"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.0",
-    "express": "^4.18.2",
-    "pino": "^8.17.0",
-    "qrcode": "^1.5.4"
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
   }
 }
